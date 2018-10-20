@@ -1,0 +1,232 @@
+body {
+  font-family: "Avenir Next";
+  margin:0;
+  height:100%;
+  width:100%;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+/*////////ヘッダー///////////////*/
+
+header{
+  background-color:rgb(1,223,215);
+  height:auto;
+  width:100%;
+  position:fixed;
+  top:0;
+  z-index:10;
+}
+
+.responsive-modal{
+  position:absolute;
+  top:80px;
+  right:10px;
+  width:160px;
+  height:180px;
+  background-color:rgba(1,223,215,0.7);
+  border-radius: 20px;
+  padding-left:15px;
+  padding-top:5px;
+  display:none;
+}
+
+.responsive-modal p:hover{
+  cursor:pointer;
+}
+
+
+.header-logo{
+  font-family: 'arial black';
+  float:left;
+  font-size: 60px;
+  padding:0 0 5px 10px;
+  color:white;
+}
+
+.header-logo:hover{
+  cursor:pointer;
+}
+
+.header-list{
+  float:right;
+  padding-right:20px;
+}
+
+.header-list li{
+  font-size: 18px;
+  float:left;
+  padding:20px 10px 5px 10px;
+  color:white;
+}
+
+li{
+  list-style:none;
+}
+
+
+.header-list li:hover{
+  cursor:pointer;
+}
+
+.menu-icon{
+  padding:15px 20px 0 0;
+  float:right;
+  display:none;
+  color:white;
+  position:relative;
+}
+
+.menu-icon:hover{
+  cursor:pointer;
+}
+
+/*/////////////メイン/////////////////////////////////////////////*/
+
+.Main{
+  margin:40px;
+}
+
+.myself{
+  text-align: center;
+  padding:90px 0 30px 0;
+
+}
+
+.myself h1{
+
+  display:block;
+  font-size: 45px;
+  padding:40px 0 0 0;
+  text-align:center;
+  font-weight:normal;
+  font-family:serif;
+}
+
+.myname{
+  width:400px;
+  margin:auto;
+  border-bottom:2px solid black;
+
+
+}
+
+
+.myself p{
+  display:inline;
+  font-size:20px;
+}
+
+.myself-logo{
+
+  width:25%;
+  height:25%;
+}
+
+.btn {
+  color:white;
+  display:inline-block;
+  height: 70px;
+  width:210px;
+  opacity:0.9;
+  text-align: center;
+  margin:15px 10px;
+  line-height:65px;
+  transition: all 0.6s;
+  font-size:20px;
+  text-decoration: none;
+  line-height: 70px;
+}
+.btn:hover{
+  cursor:pointer;
+  border-radius: 100px;
+  transition: all 1s;
+}
+
+.fab{
+  padding-right: 3px;
+}
+
+
+
+.twitter{
+  background-color:#00BFFF;
+
+}
+
+.instagram{
+
+  background-color:#FF00FF;
+
+}
+
+.youtube{
+  background-color: #F61616;
+
+}
+
+.twitch{
+  background-color:#A901DB;
+}
+
+.steam{
+  background-color: #0431B4;
+}
+
+h3{
+  color:black;
+  opacity:0.7;
+  text-align:center;
+  padding:10px 0;
+  font-size:35px;
+}
+
+
+.hobbies{
+  text-align:center;
+  height: calc(171px + 35px + 150px);
+}
+
+
+
+.hobby{
+  float:left;
+  padding:40px 20px;
+  width:50%;
+}
+
+
+.hopingList{
+  text-align:center;
+  margin:20px 0;
+}
+
+.hoping-title{
+  font-size:30px;
+  padding:50px 0 0 0;
+}
+
+.hopingList li{
+  padding-bottom:10px;
+  font-size:16px;
+}
+
+.completionList{
+  text-align:center;
+  margin:20px 0;
+}
+
+.completionList li{
+  padding-bottom:10px;
+  font-size:16px;
+}
+
+/*/////////////フッター///////////////////////////////*/
+
+
+footer{
+  height:70px;
+  background-color: #F9A825;
+}
