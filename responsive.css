@@ -1,0 +1,58 @@
+@media (max-width:768px) {
+
+  header{
+    height:80px;
+  }
+
+  .myself-logo{
+    width:45%;
+    height:45%;
+  }
+
+  .menu-icon{
+    display:block;
+  }
+
+  .header-list{
+    display:none;
+  }
+
+  .hobby{
+    width:100%;
+  }
+
+  .btn{
+    width:80%;
+  }
+
+
+  footer{
+    text-align:center;
+  }
+}
+
+
+@media (min-width:769px) {
+
+  .hobby{
+    width:50%;
+  }
+
+  .btn{
+    width:21%;
+  }
+
+
+  .header-list{
+    display:block;
+  }
+
+  .menu-icon{
+    display:none;
+  }
+
+  .responsive-modal{
+    display:none;
+  }
+
+}
